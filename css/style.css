@@ -240,6 +240,22 @@ i{
 } 
 
 
+.wsp{
+    color: green;
+    position: fixed;
+    right: 4rem;
+    bottom: 3rem;
+    transition: all 2s;
+}
+
+.wsp i {
+    color: green;
+    font-size: 7rem;
+}
+
+.wsp:hover{
+    transform: scale(2);
+}
 
 
 /*COMIENZO GRID, PAGINA "CATEGORIAS" */
