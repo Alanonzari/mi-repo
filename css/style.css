@@ -1,0 +1,368 @@
+html{
+    font-size: 62.5%;
+}
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+.imagenDeFondo{
+    background-image: url(../Imagenes/fondo.jpg);
+    background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 3rem 3rem;
+    flex-wrap: wrap;
+  
+
+}
+
+
+
+
+
+
+.navegador ul{
+    display: flex;
+    list-style: none;
+    margin:auto;
+    font-size: 2.4rem;
+    margin: 1rem;
+    flex-wrap: wrap;
+}
+
+.navegador li a{
+    text-decoration: none;
+    color: wheat;
+    padding: 2rem;
+}
+
+.navegador li{
+    display: inline-block;
+    text-align: center;
+}
+
+.navegador li a:hover{
+    background-color: peru;
+}
+
+
+
+
+
+
+
+
+.parrafos h1{
+    color: white;
+    font-size: 4rem;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+
+.parrafos p {
+    font-size: 2rem;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    color: peru;
+}
+
+span{
+    color: peru
+}
+
+
+
+
+.inicio{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 3rem 0;
+    align-items: center;
+    }
+
+.inicio h2{
+     color: white;
+     font-size: 3.4rem;
+     padding-bottom: 3rem;
+     text-align:center;
+     font-family: 'Times New Roman', Times, serif;
+     font-weight: 300;
+    
+    }
+    
+.inicio p{
+    font-size: 2.5rem;
+    color: peru;
+    padding: 2rem;
+    text-align: center;
+    }
+
+.inicio-imagen{
+    padding: 2rem;
+    align-items: center;
+    margin: 0 15rem;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.redneck{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 3rem 0;
+    align-items: center;
+}
+
+
+.redneck h2{
+    color: white;
+    font-size: 3.4rem;
+    padding-bottom: 3rem;
+    text-align:center;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 300;
+    text-align: center;
+
+}
+
+
+.redneck p{
+  font-size: 2.5rem;
+  color: peru;
+    padding: 2rem;
+    text-align: center;
+}
+
+.redneck-imagen{
+padding: 2rem;
+margin: 0 15rem; 
+align-items: center;
+justify-content: center;
+}
+
+
+
+.Centrado{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 3rem 0;
+    flex-wrap: wrap;
+}
+
+button{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0.6rem 2rem;
+    margin: 0.5rem 0.5rem;
+    font-size: 1.5rem;
+    background-color: white;
+    border-radius: 3rem;
+    flex-wrap: wrap;
+}
+button:hover{
+background-color: peru;
+
+}
+
+
+
+
+
+
+
+
+
+section form input{
+    font-size: 2rem;
+    display: block;
+    margin: 2rem;
+}
+textarea{
+    font-size: 2rem;
+}
+
+
+.Formularios{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 5rem 4rem;
+    flex-wrap: wrap;
+}
+
+.boton{
+    padding: 0.6rem 9rem;
+
+}
+
+
+
+
+
+
+ 
+
+.pieDePagina{
+    display: flex;
+    font-size: 2rem;
+    color: black;
+    text-align: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color:slategray;
+    flex-wrap: wrap;
+  
+}
+
+
+i{
+    color:black;
+    font-size: 2.5rem;
+} 
+
+
+
+
+/*COMIENZO GRID, PAGINA "CATEGORIAS" */
+
+
+
+
+
+
+.header-grid{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 3rem 3rem;
+    flex-wrap: wrap;
+}
+
+
+
+.navegador-grid ul{
+    display: flex;
+    list-style: none;
+    margin:auto;
+    font-size: 2.4rem;
+    margin: 1rem;
+    flex-wrap: wrap;
+}
+
+.navegador-grid li a{
+    text-decoration: none;
+    color: wheat;
+    padding: 2rem;
+}
+
+.navegador-grid li{
+    display: inline-block;
+    text-align: center;
+}
+
+.navegador-grid li a:hover{
+    background-color: peru;
+}
+
+
+
+
+
+.parrafos-grid h1{
+    color: white;
+    font-size: 4rem;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+
+.parrafos-grid p {
+    font-size: 2rem;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    color: peru;
+}
+
+
+
+
+
+.pieDePagina-grid{
+    display: flex;
+    font-size: 2rem;
+    color: black;
+    text-align: center;
+    flex-direction: column;
+    background-color:slategray;
+    flex-wrap: wrap;
+  
+}
+
+i{
+    color:black;
+    font-size: 2.5rem;
+} 
+                                                        
+
+
+
+
+.header-grid{
+    grid-area: header;
+}
+
+
+.parrafos-grid{
+    grid-area: sec;
+}
+
+.pieDePagina-grid{
+    grid-area: foot;
+}
+
+#Contenedor{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+    grid-template-areas: 
+    "header"
+    "sec"
+    "foot";
+    
+}
+
+@media screen and (max-width: 768px) {
+    .inicio{
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+    }
+
+
+    .redneck{
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
